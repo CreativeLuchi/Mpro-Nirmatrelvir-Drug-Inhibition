@@ -1,0 +1,54 @@
+
+🎯 Step 1:  Sequence Analysis and Identification of Conserved Residues
+Objective: Identify conserved residues in SARS-CoV-2 Mpro across variants to determine robust drug targets.
+I carried out sequence analysis by running Blastp of 3C-like proteinase [Severe acute respiratory syndrome coronavirus against the following search set: database [Non redundant protein sequences nr], organism- SARS-CoV-2 (taxid:2697049). I proceeded to run Multiple sequence alignment in Clustal Omega and visualized in jalview
+
+Conserved Regions
+1. Catalytic Dyad: Cys145-His41. The catalytic dyad is essential for proteolytic activity. Cys145 acts as a nucleophile, while His41 stabilizes the reaction intermediate.
+2. S1 Subsite: Key residues: His163 (hydrogen bonding with Gln), Phe140, Leu141, Asn142, Gly143.
+3. S2 Subsite: Key residues: His41, Met49, Met165.
+4. S3 Subsites: Key residues: Glu166, Pro168, Gln189.
+
+Implications for Drug Design
+1. Conserved regions (S1/S2) are prime targets for broad-spectrum inhibitors.
+2. Covalent inhibitors (e.g., Nirmatrelvir) exploit Cys145 reactivity for potency.
+
+
+
+🎯 Step 2: Ligand Identification and ADMET Prediction
+Objective: Evaluate the binding mechanism and pharmacokinetics of Nirmatrelvir.
+So far, Nirmatrelvir (PF-07321332) is the most successful Mpro inhibitor, with an unprecedentedly short period of 22 months (March 2020 to December 2021) between drug discovery and market authorization. Therefore, I investigated the drug action and binding mechanism of Nirmatrelvir. It works as a peptidomimetic inhibitor targeting the SARS-CoV-2 main protease (Mpro), which is essential for viral replication.
+
+Mechanism of Action
+1. Target: Nirmatrelvir binds to the active site of Mpro, specifically interacting with the catalytic cysteine residue (Cys145) in the protease’s active site. 
+Inhibition: It forms a reversible covalent bond with Cys145, blocking the protease’s ability to cleave viral polyproteins into functional units required for virus replication.
+2. Effect: By inhibiting Mpro, Nirmatrelvir prevents the virus from processing polyproteins 1a and 1ab, halting production of nonstructural proteins essential for viral replication.
+Role of Ritonavir as a co-drug
+3. Nirmatrelvir is co-administered with ritonavir, which inhibits CYP3A4 enzymes that metabolize Nirmatrelvir, thereby increasing its plasma concentration and half-life.
+
+Structural Insights
+The inhibitor fits into the substrate-binding pocket of Mpro, interacting with key residues such as His41 and Glu166, stabilizing binding and blocking enzymatic activity.
+
+
+
+
+🎯 Step 3: Molecular Docking and Visualization
+
+Procedure
+1. Protein (6LU7) and ligand (CID: 155903259) structures were obtained from PDB and PubChem respectively.
+2. Docking was performed using SwissDock (default settings)
+3. Visualization of docking poses was conducted using PyMOL and ChimeraX.
+ 
+Docking Procedure in PyMOL
+- Ligand sites identification
+- Polar contacts to any atom
+- ‘Show sticks, byres protein within 5 Angstroms of drug’ to locate binding sites
+- Measurements to calculate binding distances
+
+Key Observations
+1. Binding pocket: Cys145-His41 catalytic dyad.
+2. Outcome: Docking identified Nirmatrelvir as a potent inhibitor of viral replication.
+
+Results file attached 
+
+
