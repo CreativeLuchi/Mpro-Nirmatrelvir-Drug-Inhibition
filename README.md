@@ -24,9 +24,9 @@ SwissDock: Automated docking of Nirmatrelvir to Mpro (default settings).
 Visualization: PyMOL and ChimeraX used to analyze binding poses, hydrogen bonds, and hydrophobic interactions.
 
 🎯 Software
-BLAST, Clustal Omega, Jalview (sequence analysis).
-SwissDock, PyMOL, ChimeraX (docking/visualization).
-ADMET-AI (pharmacokinetic profiling).
+1. BLAST, Clustal Omega, Jalview (sequence analysis).
+2. SwissDock, PyMOL, ChimeraX (docking/visualization).
+3. ADMET-AI (pharmacokinetic profiling).
 
 🎯 Aims and Objectives This project aims to provide insights into:
 1. Identification of conserved regions and catalytic residues in SARS-CoV-2 Mpro.
