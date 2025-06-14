@@ -1,0 +1,11 @@
+🎯 Discussion
+Nirmatrelvir’s peptidomimetic design mimics the natural substrate, enabling selective inhibition of Mpro. Its covalent binding to Cys145 disrupts the catalytic dyad, while interactions with conserved subsites (S1/S2) explain broad-spectrum potential against coronaviruses. ADMET predictions align with clinical data, where ritonavir co-administration mitigates rapid CYP3A4 metabolism.
+
+Comparison with Literature:
+1. Conserved Sites: Matches structural studies highlighting Cys145-His41 as immutable across variants.
+2. Drug Resistance: E166V mutation reduces nirmatrelvir binding, underscoring the need for resilient inhibitors.
+
+
+🎯 Conclusion
+This study validates Mpro’s conservation and nirmatrelvir’s mechanism through integrated bioinformatics. Conserved regions (S1/S2) are ideal targets for pan-coronavirus inhibitors, while ADMET insights guide optimization of next-generation antivirals. Future work should explore molecular dynamics to assess binding stability under mutational pressure.
+
