@@ -37,12 +37,15 @@ Visualization: PyMOL and ChimeraX used to analyze binding poses, hydrogen bonds,
 🎯 Result files attached
 
 1. Multiple Sequence Alignment
+   
 ![Screenshot 2025-06-13 at 22 14 36](https://github.com/user-attachments/assets/9a8a71a1-1af3-4055-a38a-59129a010627)
 ![mpro jalview MSA](https://github.com/user-attachments/assets/3003ae37-38b8-4998-8da0-278f7848d2fc)
 ![image 1](https://github.com/user-attachments/assets/fc5eddb0-5060-4c53-bbeb-715823a52756)
 ![Screenshot 2025-06-13 at 12 50 27](https://github.com/user-attachments/assets/d79ce590-75df-4179-9adc-ab6b2bda3a7a)
 
-To evaluate the conserved regions of SARS-CoV-2 main protease MPro and assess the evolutionary robustness of its inhibitor binding site, I performed both Pairwise Sequence aligmet using blastp and multiple sequence alignment (MSA) using representative sequences from various SARS-CoV-2 lineages and related coronaviruses. The resulting alignment revealed a high degree of sequence conservation, particularly within the catalytic dyad and substrate-binding regions (S1 & S2). Critical residues involved in Nirmatrelvir binding, including His41, Cys145, Glu166, and Met165, were strictly conserved across all sequences analyzed. This strong conservation suggests that Mpro maintains a structurally constrained active site annd substrate binding iste making it an ideal target for antiviral drug development. The original Fasta Files attached in results
+To evaluate the conserved regions of SARS-CoV-2 main protease MPro and assess the evolutionary robustness of its inhibitor binding site, I performed both Pairwise Sequence aligmet using blastp and multiple sequence alignment (MSA) using representative sequences from various SARS-CoV-2 lineages and related coronaviruses. The resulting alignment revealed a high degree of sequence conservation, particularly within the catalytic dyad and substrate-binding regions (S1 & S2). Critical residues involved in Nirmatrelvir binding, including His41, Cys145, Glu166, and Met165, were strictly conserved across all sequences analyzed. This strong conservation suggests that Mpro maintains a structurally constrained active site annd substrate binding iste making it an ideal target for antiviral drug development. The original Fasta Files attached in results https://github.com/CreativeLuchi/Mpro-Nirmatrelvir-Drug-Inhibition/tree/main/MPro-Nirmatrelvir%20Results
+
+
 
 2. Molecular Docking and Visualization
 
