@@ -5,6 +5,7 @@ Comprehensive Structural and Functional Insights into SARS-CoV-2 Main Protease (
 A step-by-step guide covering the disease biology, key genes, drug discovery, and protein docking simulation to analyze approved drug- Nirmatrelvir.
 
 🎯 Abstract
+
 The SARS-CoV-2 main protease (Mpro, 3CLpro) is a critical enzyme for viral replication, making it a prime target for antiviral drug development. This mini research project integrates bioinformatics tools to characterize Mpro’s active sites, conserved regions, and inhibition by Nirmatrelvir, Mpro inhibitor. Sequence analysis revealed universal conservation of the catalytic dyad (Cys145-His41) and substrate-binding subsites across coronaviruses. Molecular docking demonstrated nirmatrelvir’s reversible covalent binding to Cys145, supported by interactions with key residues (His41, Glu166). ADMET predictions highlighted favorable pharmacokinetics but noted moderate CYP3A4-mediated metabolism and cardiac safety considerations. These findings provide mechanistic insights into Mpro’s role in COVID-19 and validate nirmatrelvir’s binding mode, emphasizing conserved regions as targets for broad-spectrum antivirals. The project highlights critical residues for substrate recognition and catalysis, investigates ADMET properties of Nirmatrelvir, and discusses structural factors contributing to its high binding affinity.
 
 
