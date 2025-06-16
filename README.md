@@ -43,7 +43,7 @@ Visualization: PyMOL and ChimeraX used to analyze binding poses, hydrogen bonds,
 ![image 1](https://github.com/user-attachments/assets/fc5eddb0-5060-4c53-bbeb-715823a52756)
 ![Screenshot 2025-06-13 at 12 50 27](https://github.com/user-attachments/assets/d79ce590-75df-4179-9adc-ab6b2bda3a7a)
 
-To evaluate the conserved regions of SARS-CoV-2 main protease MPro and assess the evolutionary robustness of its inhibitor binding site, I performed both Pairwise Sequence aligmet using blastp and multiple sequence alignment (MSA) using representative sequences from various SARS-CoV-2 lineages and related coronaviruses. The resulting alignment revealed a high degree of sequence conservation, particularly within the catalytic dyad and substrate-binding regions (S1 & S2). Critical residues involved in Nirmatrelvir binding, including His41, Cys145, Glu166, and Met165, were strictly conserved across all sequences analyzed. This strong conservation suggests that Mpro maintains a structurally constrained active site annd substrate binding iste making it an ideal target for antiviral drug development. The original Fasta Files attached in results https://github.com/CreativeLuchi/Mpro-Nirmatrelvir-Drug-Inhibition/tree/main/MPro-Nirmatrelvir%20Results
+Explanation: To evaluate the conserved regions of SARS-CoV-2 main protease MPro and assess the evolutionary robustness of its inhibitor binding site, I performed both Pairwise Sequence aligmet using blastp and multiple sequence alignment (MSA) using representative sequences from various SARS-CoV-2 lineages and related coronaviruses. The resulting alignment revealed a high degree of sequence conservation, particularly within the catalytic dyad and substrate-binding regions (S1 & S2). Critical residues involved in Nirmatrelvir binding, including His41, Cys145, Glu166, and Met165, were strictly conserved across all sequences analyzed. This strong conservation suggests that Mpro maintains a structurally constrained active site annd substrate binding iste making it an ideal target for antiviral drug development. The original Fasta Files attached https://github.com/CreativeLuchi/Mpro-Nirmatrelvir-Drug-Inhibition/tree/main/MPro-Nirmatrelvir%20Results
 
 
 
@@ -54,11 +54,16 @@ To evaluate the conserved regions of SARS-CoV-2 main protease MPro and assess th
 ![Binding site](https://github.com/user-attachments/assets/27af2034-f27b-485c-9c80-e3d0d23a9dd8)
 ![Active site-ligand docking](https://github.com/user-attachments/assets/5ac4d0a3-cf4b-4366-85ed-39eb599357d6)
 
+Explanation: Docking identified Nirmatrelvir as a potent inhibitor of viral replication as seen in the results above. The ligand was found to occupy the region adjacent to the His41-Cys145 catalytic dyad, effectively mimicking substrate binding. The ligand formed key hydrogen bonds with conserved residues including Glu166, His163, and Gly143. These results suggest a potent inhibitory mechanism based on competitive binding and steric blockade of substrate access to the catalytic site. Combined with sequence conservation analysis, these findings support Nirmatrelvir's potential as a key ligand against SARS-CoV-2. The original Files attached https://github.com/CreativeLuchi/Mpro-Nirmatrelvir-Drug-Inhibition/tree/main/MPro-Nirmatrelvir%20Results
 
 
+3. Ligand Identification and ADMET Prediction
+
+![ADMET result table_page-0002](https://github.com/user-attachments/assets/4eaf43af-9e85-44fe-bce3-feacb10b06d5)
+![ADMET result table_page-0001](https://github.com/user-attachments/assets/cb609f8a-9686-466f-bf3a-f90cb77affda)
 
 
-
+The compound Nirmatrelvir PubChem CID (155903259) has moderate molecular weight and balanced lipophilicity, with good potential to cross the blood-brain barrier. It follows most drug-likeness rules but shows some Lipinski violations, which may affect oral bioavailability. The compound is primarily metabolized by CYP3A4, so drug interactions via this enzyme should be considered. Toxicity predictions are generally low to moderate risks, with a medium level cardiac toxicity (hERG- 0.5546). Absorption is predicted to be high in humans, though Caco-2 permeability (–5.28) is a moderate permeability result — not ideal, but not poor which suggest possible variability. The compound has moderate solubility, which may affect formulation and bioavailability. These parameters suggest it is a promising molecule with typical drug-like properties but may require optimization to improve bioavailability and minimize potential cardiac risk. The original Fasta Files attached https://github.com/CreativeLuchi/Mpro-Nirmatrelvir-Drug-Inhibition/tree/main/MPro-Nirmatrelvir%20Results
 
 
 
