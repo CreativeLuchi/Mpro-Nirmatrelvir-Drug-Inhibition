@@ -1,4 +1,4 @@
-![Cartoon view docking](https://github.com/user-attachments/assets/e5050d0e-cf47-4799-a680-1dd60485a974)# Mpro-Nirmatrelvir-Drug-Inhibition
+# Mpro-Nirmatrelvir-Drug-Inhibition
 
 Comprehensive Structural and Functional Insights into SARS-CoV-2 Main Protease (Mpro) and its Inhibition by Nirmatrelvir: Sequence Conservation, Binding Mechanism, and Drug Efficacy Assessment.
 
